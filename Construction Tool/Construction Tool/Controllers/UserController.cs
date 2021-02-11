@@ -9,11 +9,9 @@ namespace Construction_Tool.Controllers
 {
     public class UserController : Controller
     {
-        public ActionResult Details(int id)
+        public ActionResult Index()
         {
-            UserContext userContext = new UserContext();
-            User user = userContext.Users.Single(user => user.UserID == id);
-            return View(user);
+            return View();
         }
     }
 }

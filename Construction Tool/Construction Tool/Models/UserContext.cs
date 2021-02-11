@@ -8,6 +8,5 @@ namespace Construction_Tool.Models
 {
     public class UserContext : DbContext
     {
-        public DbSet<User> Users { get; set; }
     }
 }
