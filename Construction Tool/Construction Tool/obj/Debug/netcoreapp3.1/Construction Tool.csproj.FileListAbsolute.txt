@@ -125,4 +125,3 @@ C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-proj
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
