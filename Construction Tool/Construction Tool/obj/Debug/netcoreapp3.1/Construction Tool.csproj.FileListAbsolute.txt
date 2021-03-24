@@ -22,7 +22,6 @@ C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-proj
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Construction Tool.TagHelpers.output.cache
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Construction Tool.RazorCoreGenerate.cache
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
