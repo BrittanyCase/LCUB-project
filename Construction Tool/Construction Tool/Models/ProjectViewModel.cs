@@ -1,15 +1,24 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Construction_Tool.Models
 {
+    [Table("PROJECT")]
     public class ProjectViewModel
     {
-        [DisplayAttribute(Name = "Project Name:")]
+        [Key]
+        [Column("ProjectID")]
+        public int ProjectID { get; set; }
+        [Column("OwnerID")]
+        public int OwnerID { get; set; }
+        [Column("ProjectName")]
         public string ProjectName { get; set; }
-        [DisplayAttribute(Name = "Project Created On:")]
+        [Column("ProjectDesc")]
+        public string ProjectDesc { get; set; }
+        [Column("ProjectCreatedOn")]
         public string ProjectCreatedOn { get; set; }
-        [DisplayAttribute(Name = "Project Last Accessed On:")]
-        public string ProjectLastAccessedOn { get; set; }
+        [Column("ProjectLastEditedOn")]
+        public string ProjectLastEditedOn { get; set; }
     }
 }

@@ -46,15 +46,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "EntityFramework": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[6.4.4, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "EntityFrameworkCore.Jet": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[2.2.0, )"
+            },
+            "JetEntityFrameworkProvider": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
