@@ -50,13 +50,9 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
-            "EntityFrameworkCore.Jet": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "JetEntityFrameworkProvider": {
-              "target": "Package",
-              "version": "[6.1.4, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

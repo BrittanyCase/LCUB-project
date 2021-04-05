@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nfic0MFIEIVb478TBc94Btz6HfA06s/sxwrLA0MOZfFY4dcoN6neVj3CwQpJ+Sb12vtL5JcgFvtoy08U7lk3Eg==",
+  "dgSpecHash": "JKotDIpvOSmL6yt7YbuLqtFANQwhu9RwWCLSFUE+dXUFmAGZQcJHlafGz2wxjP2bFpIgYsB54R5HTup9iLmnxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\alecl\\OneDrive\\SCHOOL\\Spring 2021\\Applied Systems Development\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alecl\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
-    "C:\\Users\\alecl\\.nuget\\packages\\entityframeworkcore.jet\\2.2.0\\entityframeworkcore.jet.2.2.0.nupkg.sha512",
-    "C:\\Users\\alecl\\.nuget\\packages\\jetentityframeworkprovider\\6.1.4\\jetentityframeworkprovider.6.1.4.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
@@ -18,8 +16,17 @@
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.codeanalysis.razor\\3.1.0\\microsoft.codeanalysis.razor.3.1.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\3.3.1\\microsoft.codeanalysis.workspaces.common.3.3.1.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.0\\microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512",
-    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.0\\microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.4\\microsoft.entityframeworkcore.analyzers.5.0.4.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
@@ -61,8 +68,8 @@
     "C:\\Users\\alecl\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
-    "C:\\Users\\alecl\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
-    "C:\\Users\\alecl\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.composition\\1.0.31\\system.composition.1.0.31.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.composition.attributedmodel\\1.0.31\\system.composition.attributedmodel.1.0.31.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.composition.convention\\1.0.31\\system.composition.convention.1.0.31.nupkg.sha512",
@@ -73,7 +80,7 @@
     "C:\\Users\\alecl\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
-    "C:\\Users\\alecl\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\alecl\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
@@ -132,26 +139,5 @@
     "C:\\Users\\alecl\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\alecl\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'EntityFrameworkCore.Jet 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "EntityFrameworkCore.Jet",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'JetEntityFrameworkProvider 6.1.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "JetEntityFrameworkProvider",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

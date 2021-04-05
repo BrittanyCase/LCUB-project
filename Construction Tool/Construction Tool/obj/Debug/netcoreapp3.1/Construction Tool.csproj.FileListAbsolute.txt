@@ -108,9 +108,6 @@ C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-proj
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\EntityFramework.dll
-C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Jet.dll
-C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\System.Data.Jet.dll
-C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\JetEntityFrameworkProvider.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\web.config
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\System.CodeDom.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
@@ -122,5 +119,16 @@ C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-proj
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Construction Tool.csprojAssemblyReference.cache
-C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\obj\Debug\netcoreapp3.1\Razor\Views\Project\Index.cshtml.g.cs
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
