@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alecl\\OneDrive\\SCHOOL\\Spring 2021\\Applied Systems Development\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj": {}
+    "C:\\Users\\ralph\\OneDrive\\Documents\\GitHub\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alecl\\OneDrive\\SCHOOL\\Spring 2021\\Applied Systems Development\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj": {
+    "C:\\Users\\ralph\\OneDrive\\Documents\\GitHub\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alecl\\OneDrive\\SCHOOL\\Spring 2021\\Applied Systems Development\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj",
+        "projectUniqueName": "C:\\Users\\ralph\\OneDrive\\Documents\\GitHub\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj",
         "projectName": "Construction Tool",
-        "projectPath": "C:\\Users\\alecl\\OneDrive\\SCHOOL\\Spring 2021\\Applied Systems Development\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj",
-        "packagesPath": "C:\\Users\\alecl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alecl\\OneDrive\\SCHOOL\\Spring 2021\\Applied Systems Development\\LCUB-project\\Construction Tool\\Construction Tool\\obj\\",
+        "projectPath": "C:\\Users\\ralph\\OneDrive\\Documents\\GitHub\\LCUB-project\\Construction Tool\\Construction Tool\\Construction Tool.csproj",
+        "packagesPath": "C:\\Users\\ralph\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ralph\\OneDrive\\Documents\\GitHub\\LCUB-project\\Construction Tool\\Construction Tool\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alecl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ralph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -51,6 +45,10 @@
               "version": "[6.4.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
             },

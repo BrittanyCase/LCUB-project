@@ -132,3 +132,143 @@ C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-proj
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\alecl\OneDrive\SCHOOL\Spring 2021\Applied Systems Development\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\web.config
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\appsettings.json
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Construction Tool.exe
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Construction Tool.deps.json
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Construction Tool.runtimeconfig.json
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Construction Tool.runtimeconfig.dev.json
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Construction Tool.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ref\Construction Tool.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Construction Tool.pdb
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Construction Tool.Views.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Construction Tool.Views.pdb
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\MySql.Data.EntityFramework.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.csprojAssemblyReference.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.AssemblyInfoInputs.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.AssemblyInfo.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.csproj.CoreCompileInputs.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.RazorAssemblyInfo.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.RazorAssemblyInfo.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\staticwebassets\Construction Tool.StaticWebAssets.Manifest.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\staticwebassets\Construction Tool.StaticWebAssets.xml
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\scopedcss\bundle\Construction Tool.styles.css
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.TagHelpers.input.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.TagHelpers.output.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.RazorCoreGenerate.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.RazorTargetAssemblyInfo.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.RazorTargetAssemblyInfo.cs
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.Views.pdb
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.csproj.CopyComplete
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\ref\Construction Tool.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.pdb
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Construction Tool.genruntimeconfig.cache
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\ralph\OneDrive\Documents\GitHub\LCUB-project\Construction Tool\Construction Tool\obj\Debug\net5.0\Razor\Views\Home\Test.cshtml.g.cs
