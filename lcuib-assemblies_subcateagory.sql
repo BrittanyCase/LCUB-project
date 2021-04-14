@@ -11,8 +11,30 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Dumping data for table mysql.lcuib-assemblies_subcateagory: ~0 rows (approximately)
+-- Dumping data for table mysql.lcuib-assemblies_subcateagory: ~17 rows (approximately)
 /*!40000 ALTER TABLE `lcuib-assemblies_subcateagory` DISABLE KEYS */;
+REPLACE INTO `lcuib-assemblies_subcateagory` (`sub_category_ID`, `sub_cat`) VALUES
+	(1, 'single phase'),
+	(2, 'two phase'),
+	(3, 'three phase'),
+	(4, 'double circuit'),
+	(5, 'reclosers'),
+	(6, 'switches&fuses'),
+	(7, 'Transformers'),
+	(8, 'volt/var control'),
+	(9, 'scondaries'),
+	(10, 'guys & anchors'),
+	(11, 'Lighting'),
+	(12, 'Miscellaneous'),
+	(13, 'Pad Mount Transformers'),
+	(14, 'switchgear'),
+	(15, 'trenches & ductbanks'),
+	(16, 'pads & vaults'),
+	(17, 'poles'),
+	(18, 'CU'),
+	(19, 'AL'),
+	(20, 'URD'),
+	(21, 'none');
 /*!40000 ALTER TABLE `lcuib-assemblies_subcateagory` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

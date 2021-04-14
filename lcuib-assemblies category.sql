@@ -11,8 +11,18 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Dumping data for table mysql.lcuib-assemblies category: ~0 rows (approximately)
+-- Dumping data for table mysql.lcuib-assemblies category: ~8 rows (approximately)
 /*!40000 ALTER TABLE `lcuib-assemblies category` DISABLE KEYS */;
+REPLACE INTO `lcuib-assemblies category` (`CAT_ID`, `CAT`) VALUES
+	(1, 'Overhead'),
+	(2, 'underground'),
+	(3, 'Riser'),
+	(4, 'Conduit'),
+	(5, 'Meter'),
+	(6, 'Fiber'),
+	(7, 'Transmission'),
+	(8, 'Wire'),
+	(9, 'Miscellaneous');
 /*!40000 ALTER TABLE `lcuib-assemblies category` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

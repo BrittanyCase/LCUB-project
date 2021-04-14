@@ -11,8 +11,13 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Dumping data for table mysql.lcuib-owner: ~0 rows (approximately)
+-- Dumping data for table mysql.lcuib-owner: ~4 rows (approximately)
 /*!40000 ALTER TABLE `lcuib-owner` DISABLE KEYS */;
+REPLACE INTO `lcuib-owner` (`Owner_ID`, `user`) VALUES
+	(2, 'cartman'),
+	(3, 'amcdaniel'),
+	(4, 'rclinard'),
+	(5, 'ddotson');
 /*!40000 ALTER TABLE `lcuib-owner` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
