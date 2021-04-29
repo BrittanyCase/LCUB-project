@@ -1,0 +1,68 @@
+﻿@model Construction_Tool.Models.ProjectViewModel
+
+@{
+    ViewBag.Title = "Delete Project" + Model.Project.PROJECT_NAME;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete Project: @Html.DisplayFor(model => model.Project.PROJECT_NAME)</h2>
+
+<h3>Permanently delete this project?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.PROJECT_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.OWNER_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.OWNER_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_NAME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.PROJECT_NAME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_DESCRIPTION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.PROJECT_DESCRIPTION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_CREATED_ON)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.PROJECT_CREATED_ON)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color row">
+            <div class="pr-3">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </div>
+            <div class="pr-3">
+                @Html.ActionLink("Back to Project", "Edit", new { id = Model.Project.PROJECT_ID }, new { @class = "btn btn-primary" })
+            </div>
+        </div>
+    }
+</div>

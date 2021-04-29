@@ -1,0 +1,33 @@
+﻿@model Construction_Tool.ViewModels.OwnerViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Login.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+<div class="login-form">
+    <hr />
+    <div class="form-group">
+        @Html.EditorFor(owner => owner.Owner.USER, new { htmlAttributes = new { @type = "text", @class = "form-control rounded-left", @placeholder = "Username" } })
+        @Html.ValidationMessageFor(owner => owner.Owner.USER, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group d-flex">
+        @Html.EditorFor(owner => owner.Owner.PASSWORD, new { htmlAttributes = new { @type = "password", @class = "form-control rounded-left", @placeholder = "Password" } })
+        @Html.ValidationMessageFor(owner => owner.Owner.PASSWORD, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        <button type="submit" value="Login" class="form-control btn btn-primary rounded submit px-3">Login</button>
+    </div>
+    <div class="form-group d-md-flex">
+        <div class="w-50">
+            <label class="checkbox-wrap checkbox-primary">
+                Remember Me
+                <input type="checkbox" checked>
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
+</div>
+}

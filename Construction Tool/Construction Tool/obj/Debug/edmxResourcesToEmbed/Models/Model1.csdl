@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="assembly">
+    <Key>
+      <PropertyRef Name="ASSEMBLY_ID" />
+    </Key>
+    <Property Name="ASSEMBLY_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CAT_ID" Type="Int32" Nullable="false" />
+    <Property Name="SUB_CAT_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="assemblies_category" Relationship="Self.CAT_ID_FK" FromRole="assemblies" ToRole="assemblies_category" />
+    <NavigationProperty Name="project_assemblies" Relationship="Self.FK_ASSEMBLY_ID_ASSEMBLIES" FromRole="assemblies" ToRole="project_assemblies" />
+    <NavigationProperty Name="assemblies_subcategory" Relationship="Self.SUB_CAT_ID_FK" FromRole="assemblies" ToRole="assemblies_subcategory" />
+  </EntityType>
+  <EntityType Name="assemblies_category">
+    <Key>
+      <PropertyRef Name="CAT_ID" />
+    </Key>
+    <Property Name="CAT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CAT_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="assemblies" Relationship="Self.CAT_ID_FK" FromRole="assemblies_category" ToRole="assemblies" />
+  </EntityType>
+  <EntityType Name="assemblies_subcategory">
+    <Key>
+      <PropertyRef Name="SUB_CAT_ID" />
+    </Key>
+    <Property Name="SUB_CAT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SUB_CAT_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="assemblies" Relationship="Self.SUB_CAT_ID_FK" FromRole="assemblies_subcategory" ToRole="assemblies" />
+  </EntityType>
+  <EntityType Name="item">
+    <Key>
+      <PropertyRef Name="ITEM_ID" />
+    </Key>
+    <Property Name="ITEM_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ITEM_DESC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ITEM_COST" Type="Decimal" Nullable="false" />
+    <NavigationProperty Name="materials" Relationship="Self.ITEM_ID" FromRole="item" ToRole="material" />
+  </EntityType>
+  <EntityType Name="material">
+    <Key>
+      <PropertyRef Name="PROJECT_ID" />
+      <PropertyRef Name="ITEM_ID" />
+    </Key>
+    <Property Name="PROJECT_ID" Type="Int32" Nullable="false" />
+    <Property Name="ITEM_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="QUANTITY" Type="Int32" />
+    <NavigationProperty Name="item" Relationship="Self.ITEM_ID" FromRole="material" ToRole="item" />
+    <NavigationProperty Name="project" Relationship="Self.PROJECT_ID_" FromRole="material" ToRole="project" />
+  </EntityType>
+  <EntityType Name="owner">
+    <Key>
+      <PropertyRef Name="OWNER_ID" />
+    </Key>
+    <Property Name="OWNER_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USER" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="projects" Relationship="Self.OWNER_ID_FK" FromRole="owner" ToRole="project" />
+  </EntityType>
+  <EntityType Name="project">
+    <Key>
+      <PropertyRef Name="PROJECT_ID" />
+    </Key>
+    <Property Name="PROJECT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OWNER_ID" Type="Int32" Nullable="false" />
+    <Property Name="PROJECT_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PROJECT_DESCRIPTION" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="PROJECT_CREATED_ON" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="materials" Relationship="Self.PROJECT_ID_" FromRole="project" ToRole="material" />
+    <NavigationProperty Name="owner" Relationship="Self.OWNER_ID_FK" FromRole="project" ToRole="owner" />
+    <NavigationProperty Name="project_assemblies" Relationship="Self.FK_PROJECT_ID_ASSEMBLIES" FromRole="project" ToRole="project_assemblies" />
+  </EntityType>
+  <EntityType Name="project_assemblies">
+    <Key>
+      <PropertyRef Name="ASSEMBLY_ID" />
+      <PropertyRef Name="PROJECT_ID" />
+    </Key>
+    <Property Name="ASSEMBLY_ID" Type="Int32" Nullable="false" />
+    <Property Name="PROJECT_ID" Type="Int32" Nullable="false" />
+    <Property Name="QUANTITY" Type="Int32" />
+    <NavigationProperty Name="assembly" Relationship="Self.FK_ASSEMBLY_ID_ASSEMBLIES" FromRole="project_assemblies" ToRole="assemblies" />
+    <NavigationProperty Name="project" Relationship="Self.FK_PROJECT_ID_ASSEMBLIES" FromRole="project_assemblies" ToRole="project" />
+  </EntityType>
+  <Association Name="CAT_ID_FK">
+    <End Role="assemblies_category" Type="Self.assemblies_category" Multiplicity="1" />
+    <End Role="assemblies" Type="Self.assembly" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="assemblies_category">
+        <PropertyRef Name="CAT_ID" />
+      </Principal>
+      <Dependent Role="assemblies">
+        <PropertyRef Name="CAT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ASSEMBLY_ID_ASSEMBLIES">
+    <End Role="assemblies" Type="Self.assembly" Multiplicity="1" />
+    <End Role="project_assemblies" Type="Self.project_assemblies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="assemblies">
+        <PropertyRef Name="ASSEMBLY_ID" />
+      </Principal>
+      <Dependent Role="project_assemblies">
+        <PropertyRef Name="ASSEMBLY_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SUB_CAT_ID_FK">
+    <End Role="assemblies_subcategory" Type="Self.assemblies_subcategory" Multiplicity="1" />
+    <End Role="assemblies" Type="Self.assembly" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="assemblies_subcategory">
+        <PropertyRef Name="SUB_CAT_ID" />
+      </Principal>
+      <Dependent Role="assemblies">
+        <PropertyRef Name="SUB_CAT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ITEM_ID">
+    <End Role="item" Type="Self.item" Multiplicity="1" />
+    <End Role="material" Type="Self.material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="item">
+        <PropertyRef Name="ITEM_ID" />
+      </Principal>
+      <Dependent Role="material">
+        <PropertyRef Name="ITEM_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PROJECT_ID_">
+    <End Role="project" Type="Self.project" Multiplicity="1" />
+    <End Role="material" Type="Self.material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="project">
+        <PropertyRef Name="PROJECT_ID" />
+      </Principal>
+      <Dependent Role="material">
+        <PropertyRef Name="PROJECT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OWNER_ID_FK">
+    <End Role="owner" Type="Self.owner" Multiplicity="1" />
+    <End Role="project" Type="Self.project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="owner">
+        <PropertyRef Name="OWNER_ID" />
+      </Principal>
+      <Dependent Role="project">
+        <PropertyRef Name="OWNER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PROJECT_ID_ASSEMBLIES">
+    <End Role="project" Type="Self.project" Multiplicity="1" />
+    <End Role="project_assemblies" Type="Self.project_assemblies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="project">
+        <PropertyRef Name="PROJECT_ID" />
+      </Principal>
+      <Dependent Role="project_assemblies">
+        <PropertyRef Name="PROJECT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBModels" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="assemblies" EntityType="Self.assembly" />
+    <EntitySet Name="assemblies_category" EntityType="Self.assemblies_category" />
+    <EntitySet Name="assemblies_subcategory" EntityType="Self.assemblies_subcategory" />
+    <EntitySet Name="items" EntityType="Self.item" />
+    <EntitySet Name="materials" EntityType="Self.material" />
+    <EntitySet Name="owners" EntityType="Self.owner" />
+    <EntitySet Name="projects" EntityType="Self.project" />
+    <EntitySet Name="project_assemblies" EntityType="Self.project_assemblies" />
+    <AssociationSet Name="CAT_ID_FK" Association="Self.CAT_ID_FK">
+      <End Role="assemblies_category" EntitySet="assemblies_category" />
+      <End Role="assemblies" EntitySet="assemblies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ASSEMBLY_ID_ASSEMBLIES" Association="Self.FK_ASSEMBLY_ID_ASSEMBLIES">
+      <End Role="assemblies" EntitySet="assemblies" />
+      <End Role="project_assemblies" EntitySet="project_assemblies" />
+    </AssociationSet>
+    <AssociationSet Name="SUB_CAT_ID_FK" Association="Self.SUB_CAT_ID_FK">
+      <End Role="assemblies_subcategory" EntitySet="assemblies_subcategory" />
+      <End Role="assemblies" EntitySet="assemblies" />
+    </AssociationSet>
+    <AssociationSet Name="ITEM_ID" Association="Self.ITEM_ID">
+      <End Role="item" EntitySet="items" />
+      <End Role="material" EntitySet="materials" />
+    </AssociationSet>
+    <AssociationSet Name="PROJECT_ID_" Association="Self.PROJECT_ID_">
+      <End Role="project" EntitySet="projects" />
+      <End Role="material" EntitySet="materials" />
+    </AssociationSet>
+    <AssociationSet Name="OWNER_ID_FK" Association="Self.OWNER_ID_FK">
+      <End Role="owner" EntitySet="owners" />
+      <End Role="project" EntitySet="projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PROJECT_ID_ASSEMBLIES" Association="Self.FK_PROJECT_ID_ASSEMBLIES">
+      <End Role="project" EntitySet="projects" />
+      <End Role="project_assemblies" EntitySet="project_assemblies" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

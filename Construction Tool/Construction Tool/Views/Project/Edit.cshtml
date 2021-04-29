@@ -1,0 +1,81 @@
+﻿@model Construction_Tool.Models.ProjectViewModel
+
+@{
+    ViewBag.Title = "Edit Project: " + Model.Project.PROJECT_NAME;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Project:</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>@Html.DisplayFor(model => model.Project.PROJECT_NAME)</h4>
+        <hr />
+        @Html.ValidationSummary(true, "Please fix the following errors before editing the project.", new { @class = "text-danger" })
+        <div class="form-group d-none">
+            @Html.LabelFor(model => model.Project.PROJECT_ID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Project.PROJECT_ID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Project.PROJECT_ID, "", new { @class = "text-danger" });
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Project.OWNER_ID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Project.OWNER_ID, Model.OwnersDropDown, "Project Owner")
+                @Html.ValidationMessageFor(model => model.Project.OWNER_ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Project.PROJECT_NAME, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Project.PROJECT_NAME, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Project.PROJECT_NAME, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Project.PROJECT_DESCRIPTION, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Project.PROJECT_DESCRIPTION, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Project.PROJECT_DESCRIPTION, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Project.PROJECT_CREATED_ON, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Project.PROJECT_CREATED_ON, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Project.PROJECT_CREATED_ON, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+            </div>
+        </div>
+    </div>
+}
+
+<div class="row">
+    <div class="pr-3">
+        @Html.ActionLink("Delete", "Delete", new { id = Model.Project.PROJECT_ID }, new { @class = "btn btn-danger pr-3" })
+    </div>
+    <div class="pr-3">
+        @Html.ActionLink("Back to List", "Index", new { id = Model.Project.PROJECT_ID }, new { @class = "btn btn-primary pr-3" })
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

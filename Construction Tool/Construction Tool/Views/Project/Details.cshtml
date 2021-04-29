@@ -1,0 +1,67 @@
+﻿@model Construction_Tool.Models.ProjectViewModel
+
+@{
+    ViewBag.Title = "Project Details: " + Model.Project.PROJECT_NAME;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>project</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.PROJECT_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.OWNER_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.OWNER_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_NAME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.PROJECT_NAME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_DESCRIPTION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.PROJECT_DESCRIPTION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_CREATED_ON)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.PROJECT_CREATED_ON)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <div class="row">
+        <div class="pr-3">
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Project.PROJECT_ID }, new { @class = "btn btn-primary pr-3" })
+        </div>
+        <div class="pr-3">
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-primary pr-3" })
+        </div>
+    </div>
+    
+  
+</p>

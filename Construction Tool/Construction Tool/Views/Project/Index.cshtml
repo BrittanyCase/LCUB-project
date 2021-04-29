@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Construction_Tool.Models.ProjectViewModel>
+
+@{
+    ViewBag.Title = "All Projects";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Projects</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th class="d-none">
+            @Html.DisplayNameFor(model => model.Project.PROJECT_ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Project.OWNER_ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Project.PROJECT_NAME)
+        </th>
+        <th class="d-none">
+            @Html.DisplayNameFor(model => model.Project.PROJECT_DESCRIPTION)
+        </th>
+        <th class="d-none">
+            @Html.DisplayNameFor(model => model.Project.PROJECT_CREATED_ON)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td class="d-none">
+        @Html.DisplayFor(modelItem => item.Project.PROJECT_ID)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.OwnerName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Project.PROJECT_NAME)
+    </td>
+    <td class="d-none">
+        @Html.DisplayFor(modelItem => item.Project.PROJECT_DESCRIPTION)
+    </td>
+    <td class="d-none">
+        @Html.DisplayFor(modelItem => item.Project.PROJECT_CREATED_ON)
+    </td>
+    <td>
+        <div class="row">
+            <div class="pr-3">
+                @Html.ActionLink("Edit", "Edit", new { id = item.Project.PROJECT_ID }, new { @class = "btn btn-primary pr-3" })
+            </div>
+            <div class="pr-3">
+                @Html.ActionLink("Details", "Details", new { id = item.Project.PROJECT_ID }, new { @class = "btn btn-primary pr-3" })
+            </div>
+        </div>
+
+    </td>
+</tr>
+}
+
+</table>

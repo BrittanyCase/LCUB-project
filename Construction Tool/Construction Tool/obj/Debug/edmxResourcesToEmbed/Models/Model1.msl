@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelsStoreContainer" CdmEntityContainer="DBModels">
+    <EntitySetMapping Name="assemblies">
+      <EntityTypeMapping TypeName="Models.assembly">
+        <MappingFragment StoreEntitySet="assemblies">
+          <ScalarProperty Name="ASSEMBLY_ID" ColumnName="ASSEMBLY_ID" />
+          <ScalarProperty Name="CAT_ID" ColumnName="CAT_ID" />
+          <ScalarProperty Name="SUB_CAT_ID" ColumnName="SUB_CAT_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="assemblies_category">
+      <EntityTypeMapping TypeName="Models.assemblies_category">
+        <MappingFragment StoreEntitySet="assemblies_category">
+          <ScalarProperty Name="CAT_ID" ColumnName="CAT_ID" />
+          <ScalarProperty Name="CAT_NAME" ColumnName="CAT_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="assemblies_subcategory">
+      <EntityTypeMapping TypeName="Models.assemblies_subcategory">
+        <MappingFragment StoreEntitySet="assemblies_subcategory">
+          <ScalarProperty Name="SUB_CAT_ID" ColumnName="SUB_CAT_ID" />
+          <ScalarProperty Name="SUB_CAT_NAME" ColumnName="SUB_CAT_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="items">
+      <EntityTypeMapping TypeName="Models.item">
+        <MappingFragment StoreEntitySet="item">
+          <ScalarProperty Name="ITEM_ID" ColumnName="ITEM_ID" />
+          <ScalarProperty Name="ITEM_DESC" ColumnName="ITEM_DESC" />
+          <ScalarProperty Name="ITEM_COST" ColumnName="ITEM_COST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="materials">
+      <EntityTypeMapping TypeName="Models.material">
+        <MappingFragment StoreEntitySet="material">
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="ITEM_ID" ColumnName="ITEM_ID" />
+          <ScalarProperty Name="QUANTITY" ColumnName="QUANTITY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="owners">
+      <EntityTypeMapping TypeName="Models.owner">
+        <MappingFragment StoreEntitySet="owner">
+          <ScalarProperty Name="OWNER_ID" ColumnName="OWNER_ID" />
+          <ScalarProperty Name="USER" ColumnName="USER" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="projects">
+      <EntityTypeMapping TypeName="Models.project">
+        <MappingFragment StoreEntitySet="project">
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="OWNER_ID" ColumnName="OWNER_ID" />
+          <ScalarProperty Name="PROJECT_NAME" ColumnName="PROJECT_NAME" />
+          <ScalarProperty Name="PROJECT_DESCRIPTION" ColumnName="PROJECT_DESCRIPTION" />
+          <ScalarProperty Name="PROJECT_CREATED_ON" ColumnName="PROJECT_CREATED_ON" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="project_assemblies">
+      <EntityTypeMapping TypeName="Models.project_assemblies">
+        <MappingFragment StoreEntitySet="project_assemblies">
+          <ScalarProperty Name="ASSEMBLY_ID" ColumnName="ASSEMBLY_ID" />
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="QUANTITY" ColumnName="QUANTITY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

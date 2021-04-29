@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="04722a2269d64e43b682e46eff2580dc" Name="Diagram1">
+        <EntityTypeShape EntityType="Models.assembly" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.assemblies_category" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.assemblies_subcategory" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.item" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.material" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.owner" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.project" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.project_assemblies" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Models.CAT_ID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_ASSEMBLY_ID_ASSEMBLIES" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.SUB_CAT_ID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.ITEM_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.PROJECT_ID_" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.OWNER_ID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_PROJECT_ID_ASSEMBLIES" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
