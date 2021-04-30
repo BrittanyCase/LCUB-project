@@ -1,0 +1,61 @@
+﻿@model Construction_Tool.ViewModels.EstimationViewModel
+
+@{
+    ViewBag.Title = "Materials";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.Display(Model.Project.PROJECT_NAME)
+<div class="row">
+    <div class="col-md-3 pb-3 pt-4">
+        @Html.ActionLink("Add Material", "Add", new { projectID = Model.Project.PROJECT_ID, search = "" }, new { @class = "btn btn-primary pr-3" })
+        @Html.ActionLink("Back", "Index", new { }, new { @class = "btn btn-primary pr-3" })
+    </div>
+</div>
+@using (Html.BeginForm("Materials", "Estimation", FormMethod.Get))
+{
+    <div class="form-group row">
+        @Html.TextBox("projectID", Model.Project.PROJECT_ID, new { @class = "d-none" })
+        @Html.TextBox("search", "", new { @class = "form-control mr-3", @placeholder = "Search for a material" })
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </div>
+}
+<table class="table">
+    <tr>
+        <th>
+            Material
+        </th>
+        <th>
+            Cost
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Cost (Total)
+        </th>
+    </tr>
+    @foreach (var item in Model.Materials)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.item.ITEM_DESC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.item.ITEM_COST)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QUANTITY)
+            </td>
+            <td>
+                @(item.QUANTITY * item.item.ITEM_COST)
+            </td>
+            <td>
+                <div class="row">
+                    <div class="pr-3">
+                        @Html.ActionLink("Remove", "Remove", new { projectID = item.PROJECT_ID, itemID = item.ITEM_ID }, new { @class = "btn btn-primary pr-3" })
+                    </div>
+                </div>
+            </td>
+        </tr>
+    }
+</table>

@@ -15,15 +15,25 @@ namespace Construction_Tool.Controllers
     {
         // GET: Project
         DBModels dbModel = new DBModels();
-        public ActionResult Index()
+        public ActionResult Index(string search)
         {
             List<project> projectsList = new List<project>();
             List<OwnerListTable> ownersList = new List<OwnerListTable>();
             List<ProjectViewModel> pvmList = new List<ProjectViewModel>();
             try
             {
-                
-                projectsList = dbModel.projects.ToList();
+                if(!string.IsNullOrEmpty(search))
+                {
+                    // Name search
+                    List<project> projectsListNameSearch = dbModel.projects.Where(s => s.PROJECT_NAME.Contains(search)).ToList();
+                    // Owner search
+                    List<project> projectListOwnerSearch = dbModel.projects.Where(s => s.owner.USER.Contains(search)).ToList();
+                    projectsList = projectsListNameSearch.Union(projectListOwnerSearch).ToList();
+                }
+                else
+                {
+                    projectsList = dbModel.projects.ToList();
+                }
                 ownersList = dbModel.owners.ToList().Select(x => new OwnerListTable()
                 {
                     OwnerID = x.OWNER_ID,

@@ -1,0 +1,57 @@
+﻿@model Construction_Tool.ViewModels.MaterialViewModel
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Add a Material</h2>
+@using (Html.BeginForm("Add", "Estimation", FormMethod.Get))
+{
+    <div class="form-group row">
+        @Html.TextBox("projectID", Model.ProjectID, new { @class = "d-none" })
+        @Html.TextBox("search", "", new { @class = "form-control mr-3", @placeholder = "Search for a material" })
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </div>
+}
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.ItemsList)
+    @Html.HiddenFor(model => model.ProjectID)
+    <table class="table">
+        <tr>
+            <th>Quantity</th>
+            <td>
+                @Html.TextBoxFor(model => model.Quantity, new { @class = "form-control", @placeholder = "Quantity", @type = "number",  @min = 1, @max = 10000})
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Material
+            </th>
+            <th>
+                Cost
+            </th>
+        </tr>
+
+        @foreach (var item in Model.ItemsList)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ITEM_DESC)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ITEM_COST)
+                </td>
+                <td>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <button data-val="true" type="submit" id="ItemID" name="ItemID" value="@item.ITEM_ID" class="btn btn-primary">
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </table>
+}

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Construction_Tool.ViewModels.EstimationViewModel>
+@{
+    ViewBag.Title = "Estimation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Estimation</h2>
+@using (Html.BeginForm("Index", "Estimation", FormMethod.Get))
+{
+    <div class="form-group row">
+        @Html.TextBox("search", "", new { @class = "form-control mr-3", @placeholder = "Search for a project" })
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </div>
+}
+<table class="table">
+    <tr>
+        <th>
+            Project Name
+        </th>
+        <th>
+            Materials Cost
+        </th>
+        <th>
+            Labor Cost
+        </th>
+        <th>
+            Total Cost
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Project.PROJECT_NAME)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaterialsCost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LaborCost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalCost)
+            </td>
+            <td>
+                <div class="row">
+                    <div class="pr-3">
+                        @Html.ActionLink("Edit Materials", "Materials", new { projectID = item.Project.PROJECT_ID }, new { @class = "btn btn-primary pr-3" })
+                    </div>
+                </div>
+            </td>
+        </tr>
+    }
+</table>

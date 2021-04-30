@@ -3,6 +3,8 @@ using Construction_Tool.ViewModels;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
+using System.Data.Entity.Validation;
 using System.Linq;
 using System.Security.Claims;
 using System.Web;
@@ -59,6 +61,48 @@ namespace Construction_Tool.Controllers
 
             }
             return View(ovm);
+        }
+        [Authorize]
+        [HttpGet]
+        public ActionResult ChangePassword()
+        {
+            var ctx = Request.GetOwinContext();
+            var authenticationManager = ctx.Authentication;
+            string username = authenticationManager.User.Claims.First().Value;
+            try
+            {
+                owner Owner = dbModel.owners.Where(x => x.USER == username).First();
+                return View(new OwnerViewModel() { Owner = Owner });
+            } catch(Exception)
+            {
+                authenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+                return RedirectToAction("Login", "Account");
+            }
+        }
+        [Authorize]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult ChangePassword(OwnerViewModel ovm)
+        {
+            try
+            {
+                var ctx = Request.GetOwinContext();
+                var authenticationManager = ctx.Authentication;
+                authenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+                owner owner = ovm.Owner;
+
+                dbModel.Entry(owner).State = System.Data.Entity.EntityState.Modified;
+                dbModel.SaveChanges();
+                return RedirectToAction("Login", "Account");
+            }
+            catch (DbEntityValidationException)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            catch (DbUpdateException e)
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
         private void SignInUser(owner owner, bool isPersistent)
         {

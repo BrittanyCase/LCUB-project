@@ -114,3 +114,4 @@ C:\Dev\C# Projects\LCUB Project\Construction Tool\Construction Tool\bin\System.W
 C:\Dev\C# Projects\LCUB Project\Construction Tool\Construction Tool\bin\System.Net.Http.Formatting.xml
 C:\Dev\C# Projects\LCUB Project\Construction Tool\Construction Tool\bin\System.Web.Http.xml
 C:\Dev\C# Projects\LCUB Project\Construction Tool\Construction Tool\bin\System.Web.Http.WebHost.xml
+C:\Dev\C# Projects\LCUB Project\Construction Tool\Construction Tool\obj\Debug\Construction Tool.csprojAssemblyReference.cache

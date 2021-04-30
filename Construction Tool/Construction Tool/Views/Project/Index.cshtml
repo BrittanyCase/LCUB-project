@@ -10,6 +10,13 @@
 <p>
     @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
 </p>
+@using (Html.BeginForm("Index", "Project", FormMethod.Get))
+{
+    <div class="form-group row">
+        @Html.TextBox("search", "", new { @class = "form-control mr-3", @placeholder = "Search for a project" })
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </div>
+}
 <table class="table">
     <tr>
         <th class="d-none">

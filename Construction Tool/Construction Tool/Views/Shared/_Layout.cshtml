@@ -23,12 +23,16 @@
                 <li class="nav-item active">
                     @Html.ActionLink("Projects", "Index", "Project", new { area = "" }, new { @class = "nav-item nav-link active" })
                 </li>
+                <li>
+                    @Html.ActionLink("Estimation", "Index", "Estimation", new { area = "" }, new { @class = "nav-item nav-link active"})
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="fa fa-user-o"></span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         @Html.ActionLink("Logout", "Logout", "Account", new { area = "" }, new { @class = "dropdown-item" })
+                        @Html.ActionLink("ChangePassword", "ChangePassword", "Account", new { area = "" }, new { @class = "dropdown-item" })
                     </div>
                 </li>
             </ul>
